@@ -14,7 +14,7 @@ body{
 header{/*ELEMENTO ESTA DENTRO DO CONTAINER*/
         width: 100%;
         height: 80px;
-       background-color: none;
+       background-color: orange;
 }
 
 header h1{
@@ -38,32 +38,36 @@ nav{/*ELEMENTO ESTA DENTRO DO CONTAINER*/
 
 #adulto{
     width: 100%;
-    height: 1000px;
+    height: 550px;
+    margin: 0px;
     background-color: orange;
-    background-image: url("imagens/anna.jpg");
-    background-size: 800px;
+    background-image: url("imagens/skate1.jpg");
+    background-size: 1000px;
     background-repeat: no-repeat;
     background-position: center;
+    padding-top: 0px;
 }
 
 #criança{
     width: 100%;
-    height: 1000px;
-    background-color: blue;
-    background-image: url("imagens/anna2.jpg");
-    background-size: 800px;
+    height: 600px;
+    background-color:orange;
+    background-image: url("imagens/crianca.jpg");
+    background-size: 1000px;
     background-repeat: no-repeat;
     background-position: center;
 
 }
-#profissional{
+#profissionais{
     width: 100%;
-    height: 1000px;
-    background-color: ;
-    background-image: url("imagens/anna2.jpg");
-    background-size: 800px;
-    background-repeat: no-repeat;
+    height: 600px;
+    background-color:orange;
     background-position: center;
+    background-color: ;
+    background-image: url("imagens/skate3.jpg");
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    
 
 }
 
