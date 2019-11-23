@@ -11,7 +11,7 @@ body{
 header{/*ELEMENTO ESTA DENTRO DO CONTAINER*/
         width: 100%;
         height: 100px;
-       background-color: blue;
+       background-color:red;
        margin: auto;
 }
 nav{/*ELEMENTO ESTA DENTRO DO CONTAINER*/
@@ -23,7 +23,7 @@ nav{/*ELEMENTO ESTA DENTRO DO CONTAINER*/
 section{
     width: 100%;
     height: 250px;
-    background-color: blue;
+    background-color: orange;
 }
 
 main{
