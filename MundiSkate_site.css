@@ -12,40 +12,46 @@ body{
 }
 
 header{/*ELEMENTO ESTA DENTRO DO CONTAINER*/
-        width: 100%;
-        height: 80px;
-       background-color: none;
+      width: 96%;
+      height: 80px;
+      position: fixed;
+      background-color: #000;
+      color: white;
 }
 
-header h1{
+header h1{ /*Mundi Skate Titulo do Site */
     margin: 0px;
     font-size: xx-large;
     padding-left: 450px;
+    width: 100%;
+    
 }
 
 header ul li{
     list-style-type: none;
     display: inline-block; /*MENU EM LINHA*/ 
     padding-left: 100px;
-    color: black;
+    color: white;
+    
 }
 
-nav{/*ELEMENTO ESTA DENTRO DO CONTAINER*/
+.divisoria {/*ELEMENTO ESTA DENTRO DO CONTAINER - barra cinza de divisão Menu das imagens*/
         width: 100%;
-        height: 10px; 
+        height: 5px; 
         background-color:grey;
+     
 }
 
 #adulto{
     width: 100%; /* LARGURA */
     height: 550px; /* ALTURA DA SECTION */
-    margin: 0px;
     background-color: orange;
-    background-image: url("imagens/skate1.jpg");
-    background-size: 1000px;
+    background-image: url("imagens/skate4.jpg");
+    /*background-size: 1000px;*/
     background-repeat: no-repeat;
     background-position: center;
-    padding-top: 0px;
+    margin-top: 80px;
+    color: white;
 }
 
 #criança{
