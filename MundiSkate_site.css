@@ -1,5 +1,3 @@
-
-
 body{
     margin: 0px; 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -8,54 +6,63 @@ body{
 #container{
     max-width: 1300px; /*MAXIMO DE LARGURA */
     min-width: 600px; /*MINIMO DE LARGURA */
-    margin: auto; /*SITE CENTRALIZADO - NO CASO TODO O CONTAINER*/
+    margin: auto; /*SITE CENTRALIZADO - NO CASO O HEADER*/
 }
 
 header{/*ELEMENTO ESTA DENTRO DO CONTAINER*/
-      width: 96%;
-      height: 80px;
-      position: fixed;
-      background-color: #000;
-      color: white;
+        width: 96%;
+        height: 80px;
+       background-color: #000;
+       color: white;
+       position: fixed;
 }
 
-header h1{ /*Mundi Skate Titulo do Site */
-    margin: 0px;
-    font-size: xx-large;
-    padding-left: 450px;
-    width: 100%;
+header ul li {
+    /*    list-style-type: none;*/
+        display: inline-block; /*MENU EM LINHA*/ 
+        top: 1px;
+        margin: 2px;
+        margin-left: 100px;  
+        font-size: 12px;
+    }
+
+    header ul li :hover{
+
+        background-color: gray;
+    }
     
-}
+    header ul li a{
+        color: thistle;
+        text-decoration: solid;
+    }
 
-header ul li{
-/*    list-style-type: none;*/
-    display: inline-block; /*MENU EM LINHA*/ 
-    padding-left: 100px;
-    color: white;
-    
-}
-
-.divisoria {/*ELEMENTO ESTA DENTRO DO CONTAINER - barra cinza de divisão Menu das imagens*/
+    .divisoria {/*ELEMENTO ESTA DENTRO DO CONTAINER - barra cinza de divisão Menu das imagens*/
         width: 100%;
         height: 5px; 
         background-color:grey;
      
 }
 
+nav{/*ELEMENTO ESTA DENTRO DO CONTAINER*/
+        width: 100%;
+        height: 20px;
+        background-color:#000;
+}
+
 #adulto{
-    width: 100%; /* LARGURA */
-    height: 550px; /* ALTURA DA SECTION */
+    width: 99.7%; /* LARGURA */
+    height: 510px; /* ALTURA DA SECTION */
     background-color: orange;
     background-image: url("imagens/skate4.jpg");
     /*background-size: 1000px;*/
     background-repeat: no-repeat;
     background-position: center;
-    margin-top: 80px;
+    margin-top: 98px;
     color: white;
 }
 
 #criança{
-    width: 100%;  /* LARGURA */
+    width: 99.7%;  /* LARGURA */
     height: 600px; /* ALTURA DA SECTION */
     background-color:orange;
     background-image: url("imagens/crianca.jpg");
@@ -72,10 +79,8 @@ header ul li{
     background-image: url("imagens/skate3.jpg");
     background-size: 1000px;
     background-repeat: no-repeat;
-    
 
 }
-
 
 main{
     width: 100%;
