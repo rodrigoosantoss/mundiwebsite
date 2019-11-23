@@ -28,7 +28,7 @@ header h1{ /*Mundi Skate Titulo do Site */
 }
 
 header ul li{
-    list-style-type: none;
+/*    list-style-type: none;*/
     display: inline-block; /*MENU EM LINHA*/ 
     padding-left: 100px;
     color: white;
