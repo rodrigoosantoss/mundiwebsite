@@ -63,10 +63,10 @@ nav{/*ELEMENTO ESTA DENTRO DO CONTAINER*/
 
 #criança{
     width: 99.7%;  /* LARGURA */
-    height: 600px; /* ALTURA DA SECTION */
+    height: 550px; /* ALTURA DA SECTION */
     background-color:orange;
-    background-image: url("imagens/crianca.jpg");
-    background-size: 500px;
+    background-image: url("imagens/crianca2.jpg");
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
 
