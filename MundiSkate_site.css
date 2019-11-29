@@ -3,6 +3,8 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+<script src="slider.js"></script>
+
 #container{
     max-width: 1300px; /*MAXIMO DE LARGURA */
     min-width: 600px; /*MINIMO DE LARGURA */
@@ -10,7 +12,7 @@ body{
 }
 
 header{/*ELEMENTO ESTA DENTRO DO CONTAINER*/
-        width: 96%;
+        width: 99.7%;
         height: 80px;
        background-color: #000;
        color: white;
@@ -113,10 +115,6 @@ footer{
     color: white; 
 }
 
-body,
-html {
-  height: 100%;
-}
 
 body.slider__body {
   margin: 0;
