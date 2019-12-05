@@ -173,3 +173,36 @@ head div form{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-image: url("imagens/skate_virado.jpg");
 }
+
+#containerMundiBoarders{
+    width: 99.7%; /* LARGURA DA SECTION */
+    height: 600px; /* ALTURA DA SECTION */
+    background-color: orange;
+    background-image: url("imagens/skate_virado.jpg");
+    background-size: 130%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 1px;
+    color: black;
+    font-weight: bolder;
+
+}
+
+
+.foto{
+    position: absolute;
+    opacity: 0;
+    animation: rodrigo;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rodrigo {
+    25%{
+        opacity: 1;
+        transform: scale(1.1,1.1);
+    }
+    50% {
+        opacity: 0.2;
+    }
+}
