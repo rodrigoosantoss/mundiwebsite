@@ -1,95 +1,91 @@
 <!DOCTYPE html>
-<html lang="br">
-
-<meta charset="UTF-8">
-<title>Contato</title>
-<style>
-    @import "MundiSkate_site.css";
-</style>
-
-<div id="containerMundiBoarders">
-    <header>
-        <h1>Mundi Skate Shop/Fale com a Mundi</h1>
-
-        <nav>
-            <ul>
-                <li><a href="MundiSkate_MENUProdutos.html">Produtos</a></li>
-                <li><a href="MundiSkate_MENUMundiBoarders.html">Mundi Boarders</a></li>
-                <li><a href="MundiSkate_MENUAluguelRampa.html">Aluguel Rampa</a></li>
-                <li><a href="MundiSkate_MENUAulasSkate.html">Aulas de Skate</a></li>
-                <li><a href="contato.html">Fale com a Mundi</a></li>
-                <li><a href="MundiSkate_site.html">HOME</a></li>
-            </ul>
-        </nav>
-
-    </header>
-
-<head id="formContato">
-    <br>
-    <br>
-    <br>
-    <br>
-    <div class="1aParte">
-        <form method="post" id="fContato" action="mailto: rodrigo@terra.com.br">
-            <fieldset id="usuario">
-                <Legend>Identificação do Usuario</Legend>
-                <p>Nome:<input type="text" name="tName" id="cName" size="50" maxlength="50" placeholder="Nome Completo">
-                </p>
-                <p>Fone:<input type="text" name="tFone" id="cFone" size="50" maxlength="50"
-                        placeholder="Telefone e celular de contato" /></p>
-                <p>Email:<input type="email" name="tEmail" id="cEmail" size="50" maxlength="50" placeholder="Email"></p>
-                <fieldset id="sexo">
-                    <legend>Sexo:</legend>
-                    <input type="radio" name="tSexo" id="cMasc" /><label for="cMasc">Masculino</label><br>
-                    <input type="radio" name="tSexo" id="cFem" /><label for="cFem">Feminino</label>
-                </fieldset>
-
-                <p>Data Nascimento: <input type="date" name="tNasc" id="cNasc" /></p>
-            </fieldset>
-
-            <fieldset id="endereco">
-                <Legend>Endereço:</Legend>
-                Logradouro: <input type="text" name="tRua" id="cRua" size="70" maxlength="70"
-                    placeholder="Av, Rua, Beco, Servidão..." />
-                Numero: <input type="text" name="tNumero" id="cNumero" size="15" maxlength="15"
-                    placeholder="Numero/identificação" />
-                <p>Bairro: <input type="text" name="tBairro" id="cBairro" size="30" maxlength="30"
-                        placeholder="Bairro...." /></p>
-                Estado:
-                <select name="tEst" id="cEst">
-                    <optgroup label="Região Sul">
-                        <option selected>Rio Grande do Sul - RS</option>
-                        <option>Santa Catarina - SC</option>
-                        <option>Parana - PR</option>
-                </select>
-                </optgroup>
-                Cidade: <input type="text" name="tCidade" id="cCidade" size="30" maxlength="30" placeholder="Sua Cidade"
-                    list="cidades" />
-                CEP: <input type="text" name="tCep" id="cCep" size="8" maxlength="8" placeholder="CEP" />
-                <datalist id="cidades">
-                    <option value="PoRto Alegre"></option>
-                    <option value="Florianópolis"></option>
-                    <option value="Curitiba"></option>
-
-
-                </datalist>
-            </fieldset>
-            <br>
-            <fieldset id="mensagem">
-                <Legend>Conta para nós...</Legend>
-                <textarea name="tMsg" id="cMsg" cols="100" rows="5" placeholder="Deixe aqui a sua mensagem"></textarea>
-                <p><input type="button" value="Enviar" /></p>
-            </fieldset>
-
-
-        </form>
-
-    </div>
-
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Contato</title>
+    <style>
+        @import "MundiSkate_site.css";
+    </style>
 </head>
-
 <body>
 
+    <div id="containerMundiBoarders">
+        <header>
+            <h1>Mundi Skate Shop/Fale com a Mundi</h1>
+
+            <nav>
+                <ul>
+                    <li><a href="MundiSkate_MENUProdutos.html">Produtos</a></li>
+                    <li><a href="MundiSkate_MENUMundiBoarders.html">Mundi Boarders</a></li>
+                    <li><a href="MundiSkate_MENUAluguelRampa.html">Aluguel Rampa</a></li>
+                    <li><a href="MundiSkate_MENUAulasSkate.html">Aulas de Skate</a></li>
+                    <li><a href="contato.html">Fale com a Mundi</a></li>
+                    <li><a href="MundiSkate_site.html">HOME</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div id="formContato">
+            <div class="1aParte">
+                <form method="post" id="fContato" action="mailto:rodrigo@terra.com.br">
+                    <fieldset id="usuario">
+                        <Legend>Identificação do Usuario</Legend>
+                        <p>Nome:<input type="text" name="tName" id="cName" size="50" maxlength="50" placeholder="Nome Completo">
+                        </p>
+                        <p>Fone:<input type="text" name="tFone" id="cFone" size="50" maxlength="50"
+                                placeholder="Telefone e celular de contato" /></p>
+                        <p>Email:<input type="email" name="tEmail" id="cEmail" size="50" maxlength="50" placeholder="Email"></p>
+                        <fieldset id="sexo">
+                            <legend>Sexo:</legend>
+                            <input type="radio" name="tSexo" id="cMasc" /><label for="cMasc">Masculino</label><br>
+                            <input type="radio" name="tSexo" id="cFem" /><label for="cFem">Feminino</label>
+                        </fieldset>
+
+                        <p>Data Nascimento: <input type="date" name="tNasc" id="cNasc" /></p>
+                    </fieldset>
+
+                    <fieldset id="endereco">
+                        <Legend>Endereço:</Legend>
+                        Logradouro: <input type="text" name="tRua" id="cRua" size="70" maxlength="70"
+                            placeholder="Av, Rua, Beco, Servidão..." />
+                        Numero: <input type="text" name="tNumero" id="cNumero" size="15" maxlength="15"
+                            placeholder="Numero/identificação" />
+                        <p>Bairro: <input type="text" name="tBairro" id="cBairro" size="30" maxlength="30"
+                                placeholder="Bairro...." /></p>
+                        Estado:
+                        <select name="tEst" id="cEst">
+                            <optgroup label="Região Sul">
+                                <option selected>Rio Grande do Sul - RS</option>
+                                <option>Santa Catarina - SC</option>
+                                <option>Parana - PR</option>
+                            </optgroup>
+                        </select>
+                        </optgroup>
+                        Cidade: <input type="text" name="tCidade" id="cCidade" size="30" maxlength="30" placeholder="Sua Cidade"
+                            list="cidades" />
+                        CEP: <input type="text" name="tCep" id="cCep" size="8" maxlength="8" placeholder="CEP" />
+                        <datalist id="cidades">
+                            <option value="PoRto Alegre"></option>
+                            <option value="Florianópolis"></option>
+                            <option value="Curitiba"></option>
+
+
+                        </datalist>
+                    </fieldset>
+                    <br>
+                    <fieldset id="mensagem">
+                        <Legend>Conta para nós...</Legend>
+                        <textarea name="tMsg" id="cMsg" cols="100" rows="5" placeholder="Deixe aqui a sua mensagem"></textarea>
+                        <p><input type="button" value="Enviar" /></p>
+                    </fieldset>
+
+
+                </form>
+
+            </div>
+
+        </div>
+    </div>
 </body>
 
 </html>
